@@ -1,16 +1,22 @@
 package user;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
-import javafx.scene.control.Alert.AlertType;
+import javafx.stage.Stage;
 
 public class UserLoginController implements Initializable {
 
@@ -40,11 +46,15 @@ public class UserLoginController implements Initializable {
 		UserDAO userDAO = new UserDAO();
 		int result = userDAO.login(userID, userPassword);
 		if(result == 1) {
-			Alert alert = new Alert(AlertType.INFORMATION);
-			alert.setTitle("성공 메시지");
-			alert.setHeaderText("성공 메시지입니다.");
-			alert.setContentText("로그인에 성공했습니다.");
-			alert.showAndWait();
+			try {
+				Parent parent = FXMLLoader.load(getClass().getResource("../main/Main.fxml"));
+				Scene scene = new Scene(parent);
+				Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+				stage.setScene(scene);
+				stage.show();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
 			return;
 		} else if (result == 0) {
 			Alert alert = new Alert(AlertType.WARNING);
@@ -71,6 +81,15 @@ public class UserLoginController implements Initializable {
 	}
 	
 	public void joinButtonAction(ActionEvent event) {
+		try {
+			Parent parent = FXMLLoader.load(getClass().getResource("userJoin.fxml"));
+			Scene scene = new Scene(parent);
+			Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+			stage.setScene(scene);
+			stage.show();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		
 	}
 

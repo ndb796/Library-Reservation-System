@@ -6,8 +6,8 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="500.0" prefWidth="350.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
-  <!-- TODO Add Nodes -->
+<AnchorPane prefHeight="500.0" prefWidth="350.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2"
+ fx:controller="user.UserJoinController">
   <children>
     <Label layoutX="96.0" layoutY="35.0" text="회 원 가 입">
       <font>
@@ -18,16 +18,16 @@
     <Label layoutX="37.0" layoutY="151.0" text="비밀번호" />
     <Label layoutX="25.0" layoutY="202.0" text="비밀번호 확인" />
     <Label layoutX="49.0" layoutY="260.0" text="성별" />
-    <Label layoutX="33.0" layoutY="308.0" text="소속 학과" />
+    <Label layoutX="33.0" layoutY="308.0" text="나이" />
     <Label layoutX="43.0" layoutY="352.0" text="이메일" />
-    <Button fx:id="joinokBtn" layoutX="93.0" layoutY="434.0" mnemonicParsing="false" text="가입하기" />
-    <Button fx:id="cancleBtn" layoutX="206.0" layoutY="434.0" mnemonicParsing="false" text="취소" />
-    <TextField layoutX="109.0" layoutY="100.0" prefWidth="200.0" />
-    <TextField layoutX="109.0" layoutY="148.0" prefWidth="200.0" />
-    <TextField layoutX="109.0" layoutY="199.0" prefWidth="200.0" />
-    <RadioButton layoutX="127.0" layoutY="260.0" mnemonicParsing="false" text="남자" />
-    <RadioButton layoutX="221.0" layoutY="260.0" mnemonicParsing="false" text="여자" />
-    <TextField layoutX="109.0" layoutY="305.0" prefWidth="200.0" />
-    <TextField layoutX="109.0" layoutY="349.0" prefWidth="200.0" />
+    <TextField fx:id="userID" layoutX="109.0" layoutY="100.0" prefWidth="200.0" />
+    <PasswordField fx:id="userPassword" layoutX="109.0" layoutY="148.0" prefWidth="200.0" />
+    <PasswordField fx:id="userPasswordCheck" layoutX="109.0" layoutY="199.0" prefWidth="200.0" />
+    <RadioButton fx:id="userGenderMan" layoutX="127.0" layoutY="260.0" mnemonicParsing="false" text="남자" />
+    <RadioButton fx:id="userGenderWoman" layoutX="221.0" layoutY="260.0" mnemonicParsing="false" text="여자" />
+    <TextField fx:id="userAge" layoutX="109.0" layoutY="305.0" prefWidth="200.0" />
+    <TextField fx:id="userEmail" layoutX="109.0" layoutY="349.0" prefWidth="200.0" />
+    <Button fx:id="joinButton" layoutX="93.0" layoutY="434.0" mnemonicParsing="false" text="가입하기" />
+    <Button fx:id="cancelButton" layoutX="206.0" layoutY="434.0" mnemonicParsing="false" text="취소" />
   </children>
 </AnchorPane>
