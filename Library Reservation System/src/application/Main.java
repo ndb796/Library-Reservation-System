@@ -1,20 +1,18 @@
 package application;
 	
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
-import user.UserDAO;
-
 
 public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-			System.out.println(new UserDAO().login("john", "john123"));
-			BorderPane root = new BorderPane();
-			Scene scene = new Scene(root,400,400);
-			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+			Parent root = FXMLLoader.load(getClass().getResource("../user/UserLogin.fxml"));
+			Scene scene = new Scene(root);
+			primaryStage.setTitle("도서관 예약 시스템");
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch(Exception e) {
