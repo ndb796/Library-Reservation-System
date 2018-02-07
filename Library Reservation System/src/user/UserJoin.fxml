@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="350.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Label layoutX="96.0" layoutY="35.0" text="회 원 가 입">
+      <font>
+        <Font size="30.0" />
+      </font>
+    </Label>
+    <Label layoutX="27.0" layoutY="103.0" text="아이디(학번)" />
+    <Label layoutX="37.0" layoutY="151.0" text="비밀번호" />
+    <Label layoutX="25.0" layoutY="202.0" text="비밀번호 확인" />
+    <Label layoutX="49.0" layoutY="260.0" text="성별" />
+    <Label layoutX="33.0" layoutY="308.0" text="소속 학과" />
+    <Label layoutX="43.0" layoutY="352.0" text="이메일" />
+    <Button fx:id="joinokBtn" layoutX="93.0" layoutY="434.0" mnemonicParsing="false" text="가입하기" />
+    <Button fx:id="cancleBtn" layoutX="206.0" layoutY="434.0" mnemonicParsing="false" text="취소" />
+    <TextField layoutX="109.0" layoutY="100.0" prefWidth="200.0" />
+    <TextField layoutX="109.0" layoutY="148.0" prefWidth="200.0" />
+    <TextField layoutX="109.0" layoutY="199.0" prefWidth="200.0" />
+    <RadioButton layoutX="127.0" layoutY="260.0" mnemonicParsing="false" text="남자" />
+    <RadioButton layoutX="221.0" layoutY="260.0" mnemonicParsing="false" text="여자" />
+    <TextField layoutX="109.0" layoutY="305.0" prefWidth="200.0" />
+    <TextField layoutX="109.0" layoutY="349.0" prefWidth="200.0" />
+  </children>
+</AnchorPane>
