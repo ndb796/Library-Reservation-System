@@ -1,6 +1,5 @@
 package user;
 
-import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -14,8 +13,10 @@ import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
 public class UserLoginController implements Initializable {
@@ -82,15 +83,13 @@ public class UserLoginController implements Initializable {
 	
 	public void joinButtonAction(ActionEvent event) {
 		try {
-			Parent parent = FXMLLoader.load(getClass().getResource("userJoin.fxml"));
+			Parent parent = FXMLLoader.load(getClass().getResource("userJoin2.fxml"));
 			Scene scene = new Scene(parent);
 			Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 			stage.setScene(scene);
 			stage.show();
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
-		
+		}	
 	}
-
 }

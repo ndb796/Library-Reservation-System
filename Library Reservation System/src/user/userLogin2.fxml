@@ -9,13 +9,14 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
 
-<AnchorPane prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: #000000cc;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user.UserLoginController">
+<AnchorPane prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: #000000cc;" xmlns="http://javafx.com/javafx/8">
   <!-- TODO Add Nodes -->
   <children>
       <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="826.0" layoutY="424.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../OneDrive/바탕%20화면/login_pw.png" />
+            <Image url="img/login_pw.png" />
          </image>
          <effect>
             <GaussianBlur radius="0.0">
@@ -27,7 +28,7 @@
       </ImageView>
       <ImageView fitHeight="30.0" fitWidth="30.434783935546875" layoutX="827.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../OneDrive/바탕%20화면/login_id.png" />
+            <Image url="img/login_id.png" />
          </image>
          <effect>
             <GaussianBlur radius="0.0">
@@ -39,7 +40,7 @@
       </ImageView>
       <ImageView fitHeight="176.0" fitWidth="192.0" layoutX="898.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../OneDrive/바탕%20화면/login_logo_main.gif" />
+            <Image url="img/login_logo_main.gif" />
          </image>
          <effect>
             <Bloom threshold="0.14">
@@ -71,7 +72,7 @@
       <Label disable="true" layoutY="-1.0" prefHeight="53.0" prefWidth="1200.0" style="-fx-background-color: #000000ee;" />
       <ImageView fitHeight="470.0" fitWidth="687.0" layoutX="61.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../OneDrive/바탕%20화면/Login_image.jpg" />
+            <Image url="img/33.jpg" />
          </image>
          <effect>
             <DropShadow height="204.84" radius="101.17750000000001" spread="0.67" width="201.87">
