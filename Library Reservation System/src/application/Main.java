@@ -15,7 +15,6 @@ public class Main extends Application {
 			primaryStage.setTitle("도서관 예약 시스템");
 			primaryStage.setScene(scene);
 			
-			
 			// primaryStage.initStyle(StageStyle.UNDECORATED);
 			
 			
