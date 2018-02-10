@@ -42,14 +42,11 @@
     <RadioButton layoutX="127.0" layoutY="310.0" mnemonicParsing="false" text="남자" textFill="WHITE" />
     <RadioButton layoutX="221.0" layoutY="310.0" mnemonicParsing="false" text="여자" textFill="WHITE" />
       <Label disable="true" prefHeight="53.0" prefWidth="358.0" style="-fx-background-color: #000000ee;" />
-      <Label layoutX="73.0" layoutY="17.0" prefHeight="29.0" prefWidth="133.0" text="도서관 이용 도우미" textFill="WHITE">
+      <Label layoutX="106.0" layoutY="17.0" prefHeight="29.0" prefWidth="133.0" text="도서관 이용 도우미" textFill="WHITE">
          <font>
             <Font name="HY얕은샘물M" size="25.0" />
          </font>
       </Label>
-      <Circle fill="#42cf9b" layoutX="52.0" layoutY="27.0" radius="5.0" stroke="#42cf9b" strokeType="INSIDE" />
-      <Circle fill="#ffc965" layoutX="37.0" layoutY="27.0" radius="5.0" stroke="#ffc965" strokeType="INSIDE" />
-      <Circle fill="#fa4771" layoutX="23.0" layoutY="27.0" radius="5.0" stroke="#fa4771" strokeType="INSIDE" />
       <Button layoutX="27.0" layoutY="469.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="304.0" style="-fx-background-color: #eeeeeebb; -fx-background-radius: 100;" text="회원가입">
          <font>
             <Font name="HYHeadLine-Medium" size="18.0" />
@@ -85,5 +82,8 @@
             <Font name="Arial" size="12.0" />
          </font>
       </TextField>
+      <Circle fill="#42cf9b" layoutX="78.0" layoutY="28.0" radius="10.0" stroke="#42cf9b" strokeType="INSIDE" />
+      <Circle fill="#ffc965" layoutX="53.0" layoutY="28.0" radius="10.0" stroke="#ffc965" strokeType="INSIDE" />
+      <Circle fill="#fa4771" layoutX="29.0" layoutY="28.0" radius="10.0" stroke="#fa4771" strokeType="INSIDE" />
   </children>
 </AnchorPane>
