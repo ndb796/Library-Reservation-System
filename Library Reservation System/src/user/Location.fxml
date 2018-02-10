@@ -25,7 +25,7 @@
       </Label>
       <Label layoutX="816.0" layoutY="20.0" text="User(이름) 학우님 어서오세요!" textFill="WHITE">
          <font>
-            <Font name="HYShortSamul-Medium" size="20.0" />
+            <Font name="HY얕은샘물M" size="20.0" />
          </font>
       </Label>
       <Label layoutX="1005.0" layoutY="12.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="     My Page" textAlignment="CENTER" textFill="WHITE">
@@ -45,7 +45,7 @@
       </TextField>
       <Label layoutX="534.0" layoutY="84.0" prefHeight="29.0" prefWidth="133.0" text="도서 위치 추적" textFill="WHITE">
          <font>
-            <Font name="HYShortSamul-Medium" size="33.0" />
+            <Font name="HY얕은샘물M" size="33.0" />
          </font>
       </Label>
       <Label layoutX="832.0" layoutY="147.0" prefHeight="53.0" prefWidth="95.0" style="-fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="   검색" textFill="WHITE">
@@ -305,7 +305,7 @@
       <Circle fill="WHITE" layoutX="735.0" layoutY="412.0" radius="14.0" stroke="BLACK" strokeType="INSIDE" />
       <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="22.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@back_image.png" />
+            <Image url="img/back_image.png" />
          </image>
          <effect>
             <Lighting diffuseConstant="0.0" specularConstant="2.0" specularExponent="0.0" surfaceScale="0.0">
@@ -325,12 +325,12 @@
       </Label>
       <ImageView fitHeight="53.0" fitWidth="54.0" layoutX="580.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@entrance_image.png" />
+            <Image url="img/entrance_image.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="53.0" fitWidth="54.0" layoutX="886.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@toilet_image2.png" />
+            <Image url="img/toilet_image2.png" />
          </image>
       </ImageView>
       <Circle fill="#42cf9b" layoutX="81.0" layoutY="25.0" radius="10.0" stroke="#42cf9b" strokeType="INSIDE" />
