@@ -10,12 +10,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: #000000cc;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user.UserLoginController">
+<AnchorPane prefHeight="600.0" prefWidth="1200.0"
+	style="-fx-background-color: #000000cc;" xmlns="http://javafx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1" fx:controller="user.UserLoginController">
   <!-- TODO Add Nodes -->
   <children>
       <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="826.0" layoutY="424.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../OneDrive/바탕%20화면/login_pw.png" />
+            <Image url="./login_pw.png" />
          </image>
          <effect>
             <GaussianBlur radius="0.0">
@@ -27,7 +29,7 @@
       </ImageView>
       <ImageView fitHeight="30.0" fitWidth="30.434783935546875" layoutX="827.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../OneDrive/바탕%20화면/login_id.png" />
+            <Image url="./login_id.png" />
          </image>
          <effect>
             <GaussianBlur radius="0.0">
@@ -39,7 +41,7 @@
       </ImageView>
       <ImageView fitHeight="176.0" fitWidth="192.0" layoutX="898.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../OneDrive/바탕%20화면/login_logo_main.gif" />
+            <Image url="./login_logo_main.gif" />
          </image>
          <effect>
             <Bloom threshold="0.14">
