@@ -35,27 +35,27 @@
       </Label>
       <ImageView fitHeight="233.0" fitWidth="342.0" layoutX="7.0" layoutY="52.0" pickOnBounds="true">
          <image>
-            <Image url="@../../../../../OneDrive/바탕%20화면/11.JPG" />
+            <Image url="img/11.JPG" />
          </image>
       </ImageView>
       <ImageView fitHeight="295.0" fitWidth="364.0" layoutX="349.0" layoutY="52.0" pickOnBounds="true">
          <image>
-            <Image url="@../../../../../OneDrive/바탕%20화면/22.JPG" />
+            <Image url="img/22.JPG" />
          </image>
       </ImageView>
       <ImageView fitHeight="295.0" fitWidth="270.0" layoutX="713.0" layoutY="52.0" pickOnBounds="true">
          <image>
-            <Image url="@../../../../../OneDrive/바탕%20화면/33.JPG" />
+            <Image url="img/33.JPG" />
          </image>
       </ImageView>
       <ImageView fitHeight="338.0" fitWidth="342.0" layoutX="7.0" layoutY="283.0" pickOnBounds="true">
          <image>
-            <Image url="@../../../../../OneDrive/바탕%20화면/44.JPG" />
+            <Image url="img/44.JPG" />
          </image>
       </ImageView>
       <ImageView fitHeight="276.0" fitWidth="638.0" layoutX="349.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../OneDrive/바탕%20화면/55.JPG" />
+            <Image url="img/55.JPG" />
          </image>
       </ImageView>
    </children>
