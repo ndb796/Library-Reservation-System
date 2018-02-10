@@ -1,34 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
 <?import java.lang.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="700.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
-  <!-- TODO Add Nodes -->
-  <children>
-    <Label layoutX="101.0" layoutY="47.0" text="한국 교통대학교 도서관 (이미지파일)">
-      <font>
-        <Font size="30.0" />
-      </font>
-    </Label>
-    <Label layoutX="143.0" layoutY="194.0" text="도서 대출">
-      <font>
-        <Font size="25.0" fx:id="x1" />
-      </font>
-    </Label>
-    <Label font="$x1" layoutX="414.0" layoutY="194.0" text="자리 예약" />
-    <Label font="$x1" layoutX="151.0" layoutY="224.0" text="(이미지)" />
-    <Label font="$x1" layoutX="422.0" layoutY="224.0" text="(이미지)" />
-    <Label font="$x1" layoutX="143.0" layoutY="335.0" text="도서 찾기" />
-    <Label font="$x1" layoutX="151.0" layoutY="365.0" text="(이미지)" />
-    <Label font="$x1" layoutX="380.0" layoutY="333.0" text="관리자에게 문의" />
-    <Label font="$x1" layoutX="422.0" layoutY="365.0" text="(이미지)" />
-    <Label font="$x1" layoutX="94.0" layoutY="473.0" text="미니게임 하러가기" />
-    <Label font="$x1" layoutX="110.0" layoutY="503.0" text="(이미지와 함께)" />
-    <Label font="$x1" layoutX="110.0" layoutY="533.0" text="(소스코드 있음)" />
-    <Label font="$x1" layoutX="242.0" layoutY="116.0" text="((배경이미지 삽입))" />
-  </children>
+<AnchorPane prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: #000000cc;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user.UserLoginController">
+   <children>
+      <PasswordField layoutX="-728.0" layoutY="90.0" opacity="0.0" prefHeight="48.0" prefWidth="274.0" promptText="Password" />
+      <TextField layoutX="-734.0" layoutY="90.0" opacity="0.0" prefHeight="48.0" prefWidth="280.0" promptText="ID (School ID)" />
+      <PasswordField layoutX="605.0" layoutY="758.0" opacity="0.0" prefHeight="48.0" prefWidth="274.0" promptText="Password" />
+      <Label disable="true" layoutY="-1.0" prefHeight="53.0" prefWidth="1200.0" style="-fx-background-color: #000000ee;" />
+      <Circle fill="#fa4771" layoutX="31.0" layoutY="24.0" radius="5.0" stroke="#fa4771" strokeType="INSIDE" />
+      <Circle fill="#ffc965" layoutX="45.0" layoutY="24.0" radius="5.0" stroke="#ffc965" strokeType="INSIDE" />
+      <Circle fill="#42cf9b" layoutX="60.0" layoutY="24.0" radius="5.0" stroke="#42cf9b" strokeType="INSIDE" />
+      <Label layoutX="81.0" layoutY="14.0" prefHeight="29.0" prefWidth="133.0" text="도서관 이용 도우미" textFill="WHITE">
+         <font>
+            <Font name="HY얕은샘물M" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="890.0" layoutY="22.0" text="User님 어서오세요!" textFill="WHITE" />
+      <Label layoutX="1005.0" layoutY="13.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: #FFFFFF;" text="     My Page" textAlignment="CENTER" textFill="WHITE" />
+      <Label layoutX="1099.0" layoutY="13.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: #FFFFFF;" text="     Log out" textAlignment="CENTER" textFill="WHITE" />
+   </children>
 </AnchorPane>

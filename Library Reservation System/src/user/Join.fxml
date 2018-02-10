@@ -60,27 +60,27 @@
             <Font name="HYHeadLine-Medium" size="18.0" />
          </font>
       </Button>
-      <TextField layoutX="117.0" layoutY="133.0" prefHeight="42.0" prefWidth="230.0" promptText="ex)1344029" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;">
+      <TextField layoutX="117.0" layoutY="133.0" prefHeight="42.0" prefWidth="210.0" promptText="ex)1344029" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
       </TextField>
-      <TextField layoutX="117.0" layoutY="186.0" prefHeight="42.0" prefWidth="230.0" promptText="영문,숫자조합 8자이상" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;">
+      <TextField layoutX="117.0" layoutY="186.0" prefHeight="42.0" prefWidth="210.0" promptText="영문,숫자조합 8자이상" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
       </TextField>
-      <TextField layoutX="117.0" layoutY="240.0" prefHeight="42.0" prefWidth="230.0" promptText="영문,숫자조합 8자이상" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;">
+      <TextField layoutX="117.0" layoutY="240.0" prefHeight="42.0" prefWidth="210.0" promptText="영문,숫자조합 8자이상" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
       </TextField>
-      <TextField layoutX="117.0" layoutY="349.0" prefHeight="42.0" prefWidth="230.0" promptText="ex) 소프트웨어학과" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;">
+      <TextField layoutX="117.0" layoutY="349.0" prefHeight="42.0" prefWidth="210.0" promptText="ex) 소프트웨어학과" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
       </TextField>
-      <TextField layoutX="117.0" layoutY="405.0" prefHeight="42.0" prefWidth="230.0" promptText="ex) example@example.com" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;">
+      <TextField layoutX="117.0" layoutY="405.0" prefHeight="42.0" prefWidth="210.0" promptText="ex) example@example.com" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
