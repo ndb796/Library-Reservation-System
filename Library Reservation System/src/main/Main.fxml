@@ -9,19 +9,54 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: #000000cc;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="627.0" prefWidth="987.0" style="-fx-background-color: #ffffffcc; -fx-border-width: 3; -fx-border-color: #ff9933ee;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label disable="true" layoutY="-1.0" prefHeight="53.0" prefWidth="1200.0" style="-fx-background-color: #000000ee;" />
-      <Circle fill="#fa4771" layoutX="31.0" layoutY="24.0" radius="5.0" stroke="#fa4771" strokeType="INSIDE" />
-      <Circle fill="#ffc965" layoutX="45.0" layoutY="24.0" radius="5.0" stroke="#ffc965" strokeType="INSIDE" />
-      <Circle fill="#42cf9b" layoutX="60.0" layoutY="24.0" radius="5.0" stroke="#42cf9b" strokeType="INSIDE" />
-      <Label layoutX="81.0" layoutY="14.0" prefHeight="29.0" prefWidth="133.0" text="도서관 이용 도우미" textFill="WHITE">
+      <Label disable="true" layoutX="7.0" layoutY="6.0" prefHeight="46.0" prefWidth="976.0" style="-fx-background-color: #000000;" />
+      <Circle fill="#fa4771" layoutX="955.0" layoutY="27.0" radius="13.0" stroke="#fa4771" strokeType="INSIDE" />
+      <Label layoutX="518.0" layoutY="18.0" text="User(이름) 학우님 어서오세요!" textFill="WHITE">
+         <font>
+            <Font name="HY얕은샘물M" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="707.0" layoutY="12.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="     My Page" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="HYPost-Medium" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="794.0" layoutY="12.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="     Log out" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="HYPost-Medium" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="16.0" prefHeight="29.0" prefWidth="133.0" text="도서관 이용 도우미" textFill="WHITE">
          <font>
             <Font name="HY얕은샘물M" size="25.0" />
          </font>
       </Label>
-      <Label layoutX="890.0" layoutY="22.0" text="User님 어서오세요!" textFill="WHITE" />
-      <Label layoutX="1005.0" layoutY="13.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: #FFFFFF;" text="     My Page" textAlignment="CENTER" textFill="WHITE" />
-      <Label layoutX="1099.0" layoutY="13.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: #FFFFFF;" text="     Log out" textAlignment="CENTER" textFill="WHITE" />
+      <ImageView fitHeight="233.0" fitWidth="342.0" layoutX="7.0" layoutY="52.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../OneDrive/바탕%20화면/11.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="295.0" fitWidth="364.0" layoutX="349.0" layoutY="52.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../OneDrive/바탕%20화면/22.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="295.0" fitWidth="270.0" layoutX="713.0" layoutY="52.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../OneDrive/바탕%20화면/33.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="338.0" fitWidth="342.0" layoutX="7.0" layoutY="283.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../OneDrive/바탕%20화면/44.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="276.0" fitWidth="638.0" layoutX="349.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../OneDrive/바탕%20화면/55.JPG" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

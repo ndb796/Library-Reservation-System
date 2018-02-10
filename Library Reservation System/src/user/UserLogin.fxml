@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.effect.*?>
 <?import javafx.scene.shape.*?>
@@ -11,7 +12,7 @@
 <?import javafx.scene.text.*?>
 <?import javafx.scene.*?>
 
-<AnchorPane prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: #000000cc;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user.UserLoginController">
+<AnchorPane prefHeight="748.0" prefWidth="591.0" style="-fx-background-color: #000000cc; -fx-border-color: #ff9933ee; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user.UserLoginController">
   <children>
       <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="826.0" layoutY="424.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -37,7 +38,7 @@
             </GaussianBlur>
          </effect>
       </ImageView>
-      <ImageView fitHeight="176.0" fitWidth="192.0" layoutX="898.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="176.0" fitWidth="192.0" layoutX="918.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="img/login_logo_main.gif" />
          </image>
@@ -62,8 +63,11 @@
             <Font size="18.0" />
          </font>
       </Button>
-      <Label disable="true" layoutY="-1.0" prefHeight="53.0" prefWidth="1200.0" style="-fx-background-color: #000000ee;" />
-      <ImageView fitHeight="470.0" fitWidth="660.0" layoutX="61.0" layoutY="174.0" pickOnBounds="true">
+      <Label disable="true" layoutX="7.0" layoutY="7.0" prefHeight="53.0" prefWidth="1205.0" style="-fx-background-color: #000000ee;">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis></Label>
+      <ImageView fitHeight="470.0" fitWidth="660.0" layoutX="61.0" layoutY="175.0" pickOnBounds="true">
          <image>
             <Image url="img/33.jpg" />
          </image>
@@ -75,10 +79,10 @@
             </DropShadow>
          </effect>
       </ImageView>
-      <Circle fill="#fa4771" layoutX="1174.0" layoutY="26.0" radius="13.0" stroke="#fa4771" strokeType="INSIDE" />
-      <Label layoutX="31.0" layoutY="14.0" prefHeight="29.0" prefWidth="133.0" text="도서관 이용 도우미" textFill="WHITE">
+      <Circle fill="#fa4771" layoutX="1180.0" layoutY="31.0" radius="13.0" stroke="#fa4771" strokeType="INSIDE" />
+      <Label layoutX="31.0" layoutY="14.0" prefHeight="30.0" prefWidth="224.0" text="도서관 이용 도우미" textFill="WHITE">
          <font>
-            <Font name="나눔고딕" size="25.0" />
+            <Font size="20.0" />
          </font>
       </Label>
      
