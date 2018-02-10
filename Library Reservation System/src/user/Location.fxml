@@ -15,22 +15,22 @@
 <AnchorPane prefHeight="798.0" prefWidth="1200.0" style="-fx-background-color: #000000cc;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user.UserLoginController">
    <children>
       <Label disable="true" layoutY="-1.0" prefHeight="53.0" prefWidth="1200.0" style="-fx-background-color: #000000ee;" />
-      <Label layoutX="111.0" layoutY="14.0" prefHeight="29.0" prefWidth="133.0" text="도서관 이용 도우미" textFill="WHITE">
+      <Label layoutX="31.0" layoutY="14.0" prefHeight="29.0" prefWidth="133.0" text="도서관 이용 도우미" textFill="WHITE">
          <font>
             <Font name="HY얕은샘물M" size="25.0" />
          </font>
       </Label>
-      <Label layoutX="816.0" layoutY="20.0" text="User(이름) 학우님 어서오세요!" textFill="WHITE">
+      <Label layoutX="736.0" layoutY="20.0" text="User(이름) 학우님 어서오세요!" textFill="WHITE">
          <font>
             <Font name="HY얕은샘물M" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="1005.0" layoutY="12.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="     My Page" textAlignment="CENTER" textFill="WHITE">
+      <Label layoutX="925.0" layoutY="12.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="    My Page" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font name="HYPost-Medium" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="1099.0" layoutY="12.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="     Log out" textAlignment="CENTER" textFill="WHITE">
+      <Label layoutX="1012.0" layoutY="12.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="     Log out" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font name="HYPost-Medium" size="12.0" />
          </font>
@@ -330,8 +330,6 @@
             <Image url="img/toilet_image2.png" />
          </image>
       </ImageView>
-      <Circle fill="#42cf9b" layoutX="81.0" layoutY="25.0" radius="10.0" stroke="#42cf9b" strokeType="INSIDE" />
-      <Circle fill="#ffc965" layoutX="56.0" layoutY="25.0" radius="10.0" stroke="#ffc965" strokeType="INSIDE" />
-      <Circle fill="#fa4771" layoutX="32.0" layoutY="25.0" radius="10.0" stroke="#fa4771" strokeType="INSIDE" />
+      <Circle fill="#fa4771" layoutX="1173.0" layoutY="27.0" radius="13.0" stroke="#fa4771" strokeType="INSIDE" />
    </children>
 </AnchorPane>

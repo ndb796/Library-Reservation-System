@@ -11,8 +11,7 @@
 <?import javafx.scene.text.*?>
 <?import javafx.scene.*?>
 
-<AnchorPane prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: #000000cc;"
-  xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="user.UserLoginController">
+<AnchorPane prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: #000000cc;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user.UserLoginController">
   <children>
       <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="826.0" layoutY="424.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -50,25 +49,21 @@
             </Bloom>
          </effect>
       </ImageView>
-      <Label disable="true" layoutX="799.0" layoutY="94.0" prefHeight="640.0" prefWidth="375.0" style="-fx-background-color: #000000ef;" />
+      <Label disable="true" layoutX="799.0" layoutY="94.0" prefHeight="642.0" prefWidth="375.0" style="-fx-background-color: #000000ef;" />
       <TextField fx:id="userID" layoutX="869.0" layoutY="330.0" prefHeight="53.0" prefWidth="253.0" promptText="Account" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;" />
-      <PasswordField fx:id="userPassword" layoutX="869.0" layoutY="414.0" prefHeight="53.0" prefWidth="253.0" promptText="Password" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;"/>
-      <Button fx:id="loginButton" layoutX="833.0" layoutY="510.0" mnemonicParsing="false" prefHeight="53.0"
-      	prefWidth="304.0" style="-fx-background-color: #eeeeeebb; -fx-background-radius: 100;"
-      	text="Login" onAction="#loginButtonAction">
+      <PasswordField fx:id="userPassword" layoutX="869.0" layoutY="414.0" prefHeight="53.0" prefWidth="253.0" promptText="Password" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;" />
+      <Button fx:id="loginButton" layoutX="833.0" layoutY="510.0" mnemonicParsing="false" onAction="#loginButtonAction" prefHeight="53.0" prefWidth="304.0" style="-fx-background-color: #eeeeeebb; -fx-background-radius: 100;" text="Login">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Button fx:id="joinButton"  layoutX="833.0" layoutY="596.0" mnemonicParsing="false" prefHeight="53.0"
-      	prefWidth="304.0" style="-fx-background-color: #eeeeeebb; -fx-background-radius: 100;"
-      	text="Join" onAction="#joinButtonAction">
+      <Button fx:id="joinButton" layoutX="833.0" layoutY="596.0" mnemonicParsing="false" onAction="#joinButtonAction" prefHeight="53.0" prefWidth="304.0" style="-fx-background-color: #eeeeeebb; -fx-background-radius: 100;" text="Join">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
       <Label disable="true" layoutY="-1.0" prefHeight="53.0" prefWidth="1200.0" style="-fx-background-color: #000000ee;" />
-      <ImageView fitHeight="470.0" fitWidth="687.0" layoutX="61.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="470.0" fitWidth="660.0" layoutX="61.0" layoutY="174.0" pickOnBounds="true">
          <image>
             <Image url="img/33.jpg" />
          </image>
@@ -80,10 +75,8 @@
             </DropShadow>
          </effect>
       </ImageView>
-      <Circle fill="#fa4771" layoutX="26.0" layoutY="27.0" radius="10.0" stroke="#fa4771" strokeType="INSIDE" />
-      <Circle fill="#ffc965" layoutX="50.0" layoutY="27.0" radius="10.0" stroke="#ffc965" strokeType="INSIDE" />
-      <Circle fill="#42cf9b" layoutX="75.0" layoutY="27.0" radius="10.0" stroke="#42cf9b" strokeType="INSIDE" />
-      <Label layoutX="101.0" layoutY="14.0" prefHeight="29.0" prefWidth="133.0" text="도서관 이용 도우미" textFill="WHITE">
+      <Circle fill="#fa4771" layoutX="1174.0" layoutY="26.0" radius="13.0" stroke="#fa4771" strokeType="INSIDE" />
+      <Label layoutX="31.0" layoutY="14.0" prefHeight="29.0" prefWidth="133.0" text="도서관 이용 도우미" textFill="WHITE">
          <font>
             <Font name="HY얕은샘물M" size="25.0" />
          </font>

@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 public class Main extends Application {
 	@Override
@@ -15,7 +16,7 @@ public class Main extends Application {
 			primaryStage.setTitle("도서관 예약 시스템");
 			primaryStage.setScene(scene);
 			
-			// primaryStage.initStyle(StageStyle.UNDECORATED);
+			primaryStage.initStyle(StageStyle.UNDECORATED);
 			
 			
 			primaryStage.show();
