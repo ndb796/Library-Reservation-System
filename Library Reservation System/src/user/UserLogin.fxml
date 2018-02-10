@@ -51,8 +51,8 @@
          </effect>
       </ImageView>
       <Label disable="true" layoutX="799.0" layoutY="94.0" prefHeight="640.0" prefWidth="375.0" style="-fx-background-color: #000000ef;" />
-      <TextField fx:id="userID" layoutX="869.0" layoutY="330.0" prefHeight="53.0" prefWidth="253.0" promptText="Password" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;" />
-      <PasswordField fx:id="userPassword" layoutX="869.0" layoutY="414.0" prefHeight="53.0" prefWidth="253.0" promptText="Account" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;"/>
+      <TextField fx:id="userID" layoutX="869.0" layoutY="330.0" prefHeight="53.0" prefWidth="253.0" promptText="Account" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;" />
+      <PasswordField fx:id="userPassword" layoutX="869.0" layoutY="414.0" prefHeight="53.0" prefWidth="253.0" promptText="Password" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;"/>
       <Button fx:id="loginButton" layoutX="833.0" layoutY="510.0" mnemonicParsing="false" prefHeight="53.0"
       	prefWidth="304.0" style="-fx-background-color: #eeeeeebb; -fx-background-radius: 100;"
       	text="Login" onAction="#loginButtonAction">
