@@ -45,7 +45,7 @@
             <Image url="img/44.JPG" />
          </image>
       </ImageView>
-      <ImageView fitHeight="276.0" fitWidth="487.0" layoutX="349.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="276.0" fitWidth="631.0" layoutX="349.0" layoutY="346.0" pickOnBounds="true">
          <image>
             <Image url="img/55.JPG" />
          </image>
