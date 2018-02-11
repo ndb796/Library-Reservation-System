@@ -27,8 +27,8 @@
          </effect>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="520.0" layoutX="428.0" layoutY="111.0" opacity="0.49" stroke="BLACK" strokeType="INSIDE" width="354.0" />
-      <TextField fx:id="userID" layoutX="500.0" layoutY="321.0" prefHeight="40.0" prefWidth="245.0" promptText="Account" style="-fx-border-color: white; -fx-border-width: 2; -fx-background-color: white; -fx-text-inner-color: white;" />
-      <PasswordField fx:id="userPassword" layoutX="500.0" layoutY="390.0" prefHeight="40.0" prefWidth="245.0" promptText="Password" style="-fx-border-color: white; -fx-border-width: 2; -fx-background-color: white; -fx-text-inner-color: white;" />
+      <TextField fx:id="userID" layoutX="500.0" layoutY="321.0" prefHeight="40.0" prefWidth="245.0" promptText="Account" style="-fx-border-color: white; -fx-border-width: 2; -fx-background-color: white; -fx-text-inner-color: black;" />
+      <PasswordField fx:id="userPassword" layoutX="500.0" layoutY="390.0" prefHeight="40.0" prefWidth="245.0" promptText="Password" style="-fx-border-color: white; -fx-border-width: 2; -fx-background-color: white; -fx-text-inner-color: black;" />
       <Button fx:id="loginButton" layoutX="439.0" layoutY="473.0" mnemonicParsing="false" onAction="#loginButtonAction" prefHeight="39.0" prefWidth="333.0" style="-fx-background-color: pink; -fx-border-radius: 100;" text="Login" textFill="#949292">
          <font>
             <Font size="20.0" />
