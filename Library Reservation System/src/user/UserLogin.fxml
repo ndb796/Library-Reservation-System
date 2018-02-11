@@ -46,7 +46,7 @@
       <Circle fill="#fa4771" layoutX="1180.0" layoutY="31.0" radius="13.0" stroke="#fa4771" strokeType="INSIDE" />
       <Label layoutX="31.0" layoutY="17.0" prefHeight="30.0" prefWidth="224.0" text="도서관 이용 도우미">
          <font>
-            <Font name="BM JUA" size="25.0" />
+            <Font name="배달의민족 주아" size="25.0" />
          </font>
       </Label>
       <ImageView fitHeight="42.0" fitWidth="39.0" layoutX="446.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">

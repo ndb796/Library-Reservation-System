@@ -15,9 +15,9 @@
 <AnchorPane prefHeight="798.0" prefWidth="1200.0" style="-fx-background-color: #ffffff; -fx-border-color: coral; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user.UserLoginController">
    <children>
       <Label disable="true" layoutX="6.0" layoutY="6.0" prefHeight="46.0" prefWidth="1197.0" style="-fx-background-color: pink;" />
-      <Label layoutX="28.0" layoutY="12.0" prefHeight="30.0" prefWidth="178.0" text="도서관 이용 도우미">
+      <Label layoutX="28.0" layoutY="12.0" prefHeight="30.0" prefWidth="180.0" text="도서관 이용 도우미">
          <font>
-            <Font name="BM JUA" size="25.0" />
+            <Font name="배달의민족 주아" size="25.0" />
          </font>
       </Label>
       <Label layoutX="734.0" layoutY="22.0" prefHeight="16.0" prefWidth="186.0" text="User(이름) 학우님 어서오세요!">
@@ -27,7 +27,7 @@
       </Label>
       <Label layoutX="925.0" layoutY="14.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: black; -fx-border-radius: 15;" text="     My Page" textAlignment="CENTER" />
       <Label layoutX="1012.0" layoutY="14.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: black; -fx-border-radius: 15;" text="     Log out" textAlignment="CENTER" />
-      <TextField layoutX="322.0" layoutY="147.0" prefHeight="53.0" prefWidth="494.0" promptText="원하는 도서명/코드를 입력하세요." style="-fx-border-color: black; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: #ffffff;">
+      <TextField layoutX="322.0" layoutY="147.0" prefHeight="53.0" prefWidth="494.0" promptText="원하는 도서명/코드를 입력하세요." style="-fx-border-color: lightgray; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: #ffffff;">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
@@ -39,7 +39,7 @@
       </Label>
       <Label layoutX="832.0" layoutY="147.0" prefHeight="53.0" prefWidth="95.0" style="-fx-border-color: black; -fx-border-radius: 15;" text="     검색">
          <font>
-            <Font name="BM JUA" size="24.0" />
+            <Font name="배달의민족 주아" size="24.0" />
          </font>
       </Label>
       <Label layoutX="109.0" layoutY="238.0" prefHeight="524.0" prefWidth="992.0" style="-fx-background-color: #FFFFFF; -fx-border-color: coral; -fx-border-width: 6; -fx-border-radius: 20;" />
