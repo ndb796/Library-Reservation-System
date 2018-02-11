@@ -8,7 +8,8 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="829.0" prefWidth="1063.0" style="-fx-background-color: white; -fx-border-color: #ff9999; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="829.0" prefWidth="1063.0" style="-fx-background-color: white; -fx-border-color: #ff9999; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+ fx:controller="user.newBookController">
   <!-- TODO Add Nodes -->
   <children>
       <Label disable="true" layoutX="6.0" layoutY="5.0" prefHeight="53.0" prefWidth="1052.0" style="-fx-background-color: pink;" />
@@ -18,7 +19,7 @@
          </font>
       </Label>
       <Circle fill="#fa4771" layoutX="1033.0" layoutY="29.0" radius="13.0" stroke="#fa4771" strokeType="INSIDE" />
-      <Label layoutX="59.0" layoutY="77.0" prefHeight="29.0" prefWidth="137.0" text="메인 메뉴로 이동" textFill="#0a0000">
+      <Label fx:id="cancelButton" layoutX="59.0" layoutY="77.0" prefHeight="29.0" prefWidth="137.0" text="메인 메뉴로 이동" textFill="#0a0000">
          <font>
             <Font name="배달의민족 주아" size="22.0" />
          </font>

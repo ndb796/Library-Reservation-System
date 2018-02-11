@@ -23,6 +23,7 @@ public class Main extends Application {
 	public DbConnection dc;
 	
 	
+	public static Stage rootStage;
 	
 	Stage newStage;
 	static Vector<String> rsnum = new Vector<String>();
@@ -155,6 +156,7 @@ public class Main extends Application {
 			primaryStage.setScene(scene);
 			primaryStage.initStyle(StageStyle.UNDECORATED);
 			primaryStage.show();
+			rootStage = primaryStage;
 		} catch(Exception e) {
 			e.printStackTrace();
 		}

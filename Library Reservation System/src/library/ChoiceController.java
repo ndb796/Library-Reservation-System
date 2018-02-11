@@ -37,10 +37,19 @@ public class ChoiceController implements Initializable
 	
 	public void logout(MouseEvent event)
 	{
-		if(log.getText().equals("logout"))
+		if(log.getText().equals("로그아웃"))
 		{
 			log.setText("login");
 			UserName.setText("로그인하세요");
+			try {
+				Parent parent = FXMLLoader.load(getClass().getResource("../main/Main.fxml"));
+				Scene scene = new Scene(parent);
+				Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+				stage.setScene(scene);
+				stage.show();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
 		}
 		else
 		{
@@ -51,8 +60,7 @@ public class ChoiceController implements Initializable
 	
 	Main town = new Main();
 	public void floor1(MouseEvent event) throws IOException
-	{
-		
+	{	
 		AnchorPane pane1 = town.pane1;
 		town.maketable();
 		checkreser();//자리확인

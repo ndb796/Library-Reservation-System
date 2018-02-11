@@ -61,11 +61,41 @@ public class MainController implements Initializable {
 		         event.consume();
 		     }
 		});
+		image3.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
+		     @Override
+		     public void handle(MouseEvent event) {
+		 		try {
+					Parent parent = FXMLLoader.load(getClass().getResource("../user/newBook.fxml"));
+					Scene scene = new Scene(parent);
+					Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+					stage.setScene(scene);
+					stage.show();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}	
+		         event.consume();
+		     }
+		});
 		image4.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
 		     @Override
 		     public void handle(MouseEvent event) {
 		 		try {
 					Parent parent = FXMLLoader.load(getClass().getResource("../t/test2.fxml"));
+					Scene scene = new Scene(parent);
+					Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+					stage.setScene(scene);
+					stage.show();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}	
+		         event.consume();
+		     }
+		});
+		image5.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
+		     @Override
+		     public void handle(MouseEvent event) {
+		 		try {
+					Parent parent = FXMLLoader.load(getClass().getResource("../user/Location.fxml"));
 					Scene scene = new Scene(parent);
 					Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 					stage.setScene(scene);

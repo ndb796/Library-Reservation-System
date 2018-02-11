@@ -48,7 +48,6 @@ public class rootcontroller2 implements Initializable
 	
 	public Connection getConnection() throws Exception
 	{
-		
 		try
 		{
 			String url = "jdbc:mysql://localhost:3306";

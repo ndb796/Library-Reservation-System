@@ -25,7 +25,7 @@
                         <Font name="Calibri" size="15.0" />
                      </font>
                   </TextField>
-                  <Button fx:id="log" layoutX="514.0" layoutY="19.0" mnemonicParsing="false" onMouseClicked="#logout" prefHeight="35.0" prefWidth="70.0" text="Logout">
+                  <Button fx:id="log" layoutX="514.0" layoutY="19.0" mnemonicParsing="false" onMouseClicked="#logout" prefHeight="35.0" prefWidth="70.0" text="로그아웃">
                      <font>
                         <Font name="Century" size="15.0" />
                      </font>

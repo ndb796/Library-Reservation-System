@@ -20,10 +20,10 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-import javafx.scene.control.Alert.AlertType;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
@@ -222,6 +222,10 @@ public class UseController implements Initializable
 				Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 				stage.setScene(scene);
 				stage.show();
+				
+				application.Main.rootStage.hide();
+				// 불러낸 창 끄기
+				
 			} catch (Exception e) {
 				e.printStackTrace();
 			}	
