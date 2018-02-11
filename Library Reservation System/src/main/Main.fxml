@@ -9,28 +9,20 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="627.0" prefWidth="987.0" style="-fx-background-color: #ffffffcc; -fx-border-width: 3; -fx-border-color: #ff9933ee;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="627.0" prefWidth="987.0" style="-fx-background-color: #ffffffcc; -fx-border-width: 3; -fx-border-color: coral;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label disable="true" layoutX="7.0" layoutY="6.0" prefHeight="46.0" prefWidth="976.0" style="-fx-background-color: #000000;" />
       <Circle fill="#fa4771" layoutX="955.0" layoutY="27.0" radius="13.0" stroke="#fa4771" strokeType="INSIDE" />
-      <Label layoutX="518.0" layoutY="18.0" text="User(이름) 학우님 어서오세요!" textFill="WHITE">
+      <Label layoutX="518.0" layoutY="20.0" text="User(이름) 학우님 어서오세요!" textFill="WHITE">
          <font>
-            <Font name="HY얕은샘물M" size="20.0" />
+            <Font size="13.0" />
          </font>
       </Label>
-      <Label layoutX="707.0" layoutY="12.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="     My Page" textAlignment="CENTER" textFill="WHITE">
+      <Label layoutX="707.0" layoutY="12.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="     My Page" textAlignment="CENTER" textFill="WHITE" />
+      <Label layoutX="794.0" layoutY="12.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="      Log out" textAlignment="CENTER" textFill="WHITE" />
+      <Label layoutX="26.0" layoutY="14.0" prefHeight="29.0" prefWidth="179.0" text="도서관 이용 도우미" textFill="WHITE">
          <font>
-            <Font name="HYPost-Medium" size="12.0" />
-         </font>
-      </Label>
-      <Label layoutX="794.0" layoutY="12.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="     Log out" textAlignment="CENTER" textFill="WHITE">
-         <font>
-            <Font name="HYPost-Medium" size="12.0" />
-         </font>
-      </Label>
-      <Label layoutX="29.0" layoutY="16.0" prefHeight="29.0" prefWidth="133.0" text="도서관 이용 도우미" textFill="WHITE">
-         <font>
-            <Font name="HY얕은샘물M" size="25.0" />
+            <Font size="20.0" />
          </font>
       </Label>
       <ImageView fitHeight="233.0" fitWidth="342.0" layoutX="7.0" layoutY="52.0" pickOnBounds="true">

@@ -12,7 +12,7 @@
 <?import javafx.scene.text.*?>
 <?import javafx.scene.*?>
 
-<AnchorPane prefHeight="748.0" prefWidth="591.0" style="-fx-background-color: #000000cc; -fx-border-color: #ff9933ee; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user.UserLoginController">
+<AnchorPane prefHeight="748.0" prefWidth="591.0" style="-fx-background-color: #ffffff; -fx-border-color: coral; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user.UserLoginController">
   <children>
       <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="826.0" layoutY="424.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -51,16 +51,16 @@
          </effect>
       </ImageView>
       <Label disable="true" layoutX="799.0" layoutY="94.0" prefHeight="642.0" prefWidth="375.0" style="-fx-background-color: #000000ef;" />
-      <TextField fx:id="userID" layoutX="869.0" layoutY="330.0" prefHeight="53.0" prefWidth="253.0" promptText="Account" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;" />
-      <PasswordField fx:id="userPassword" layoutX="869.0" layoutY="414.0" prefHeight="53.0" prefWidth="253.0" promptText="Password" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;" />
-      <Button fx:id="loginButton" layoutX="833.0" layoutY="510.0" mnemonicParsing="false" onAction="#loginButtonAction" prefHeight="53.0" prefWidth="304.0" style="-fx-background-color: #eeeeeebb; -fx-background-radius: 100;" text="Login">
+      <TextField fx:id="userID" layoutX="869.0" layoutY="330.0" prefHeight="53.0" prefWidth="253.0" promptText="Account" style="-fx-border-color: #000000; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;" />
+      <PasswordField fx:id="userPassword" layoutX="869.0" layoutY="414.0" prefHeight="53.0" prefWidth="253.0" promptText="Password" style="-fx-border-color: #000000; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;" />
+      <Button fx:id="loginButton" layoutX="833.0" layoutY="510.0" mnemonicParsing="false" onAction="#loginButtonAction" prefHeight="53.0" prefWidth="304.0" style="-fx-background-color: #FF9999; -fx-background-radius: 100;" text="로그인">
          <font>
-            <Font size="18.0" />
+            <Font name="HYPost-Medium" size="22.0" />
          </font>
       </Button>
-      <Button fx:id="joinButton" layoutX="833.0" layoutY="596.0" mnemonicParsing="false" onAction="#joinButtonAction" prefHeight="53.0" prefWidth="304.0" style="-fx-background-color: #eeeeeebb; -fx-background-radius: 100;" text="Join">
+      <Button fx:id="joinButton" layoutX="833.0" layoutY="596.0" mnemonicParsing="false" onAction="#joinButtonAction" prefHeight="53.0" prefWidth="304.0" style="-fx-background-color: #FF9999; -fx-background-radius: 100;" text="회원가입">
          <font>
-            <Font size="18.0" />
+            <Font name="HYPost-Medium" size="22.0" />
          </font>
       </Button>
       <Label disable="true" layoutX="7.0" layoutY="7.0" prefHeight="53.0" prefWidth="1205.0" style="-fx-background-color: #000000ee;">

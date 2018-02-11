@@ -12,45 +12,37 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="798.0" prefWidth="1200.0" style="-fx-background-color: #000000cc; -fx-border-color: #ff9933ee; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user.UserLoginController">
+<AnchorPane prefHeight="798.0" prefWidth="1200.0" style="-fx-background-color: #ffffff; -fx-border-color: coral; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user.UserLoginController">
    <children>
       <Label disable="true" layoutX="6.0" layoutY="6.0" prefHeight="46.0" prefWidth="1197.0" style="-fx-background-color: #000000ee;" />
-      <Label layoutX="31.0" layoutY="16.0" prefHeight="29.0" prefWidth="133.0" text="도서관 이용 도우미" textFill="WHITE">
+      <Label layoutX="28.0" layoutY="14.0" prefHeight="30.0" prefWidth="223.0" text="도서관 이용 도우미" textFill="WHITE">
          <font>
-            <Font name="HY얕은샘물M" size="25.0" />
+            <Font size="20.0" />
          </font>
       </Label>
-      <Label layoutX="736.0" layoutY="20.0" text="User(이름) 학우님 어서오세요!" textFill="WHITE">
+      <Label layoutX="734.0" layoutY="22.0" prefHeight="16.0" prefWidth="186.0" text="User(이름) 학우님 어서오세요!" textFill="WHITE">
          <font>
-            <Font name="HY얕은샘물M" size="20.0" />
+            <Font size="13.0" />
          </font>
       </Label>
-      <Label layoutX="925.0" layoutY="12.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="    My Page" textAlignment="CENTER" textFill="WHITE">
-         <font>
-            <Font name="HYPost-Medium" size="12.0" />
-         </font>
-      </Label>
-      <Label layoutX="1012.0" layoutY="12.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="     Log out" textAlignment="CENTER" textFill="WHITE">
-         <font>
-            <Font name="HYPost-Medium" size="12.0" />
-         </font>
-      </Label>
-      <TextField layoutX="322.0" layoutY="147.0" prefHeight="53.0" prefWidth="494.0" promptText="원하는 도서명/코드를 입력하세요." style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: white;">
+      <Label layoutX="925.0" layoutY="14.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="     My Page" textAlignment="CENTER" textFill="WHITE" />
+      <Label layoutX="1012.0" layoutY="14.0" prefHeight="30.0" prefWidth="87.0" style="-fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="     Log out" textAlignment="CENTER" textFill="WHITE" />
+      <TextField layoutX="322.0" layoutY="147.0" prefHeight="53.0" prefWidth="494.0" promptText="원하는 도서명/코드를 입력하세요." style="-fx-border-color: black; -fx-border-width: 2; -fx-background-color: #00000060; -fx-text-inner-color: #ffffff;" text="sdsdad">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
       </TextField>
-      <Label layoutX="534.0" layoutY="84.0" prefHeight="29.0" prefWidth="133.0" text="도서 위치 추적" textFill="WHITE">
+      <Label layoutX="494.0" layoutY="84.0" prefHeight="34.0" prefWidth="223.0" text="도서 위치 추적">
          <font>
-            <Font name="HY얕은샘물M" size="33.0" />
+            <Font name="HYPost-Medium" size="33.0" />
          </font>
       </Label>
-      <Label layoutX="832.0" layoutY="147.0" prefHeight="53.0" prefWidth="95.0" style="-fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="   검색" textFill="WHITE">
+      <Label layoutX="832.0" layoutY="147.0" prefHeight="53.0" prefWidth="95.0" style="-fx-border-color: black; -fx-border-radius: 15;" text="   검색">
          <font>
             <Font size="24.0" />
          </font>
       </Label>
-      <Label layoutX="109.0" layoutY="238.0" prefHeight="524.0" prefWidth="992.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 30;" />
+      <Label layoutX="109.0" layoutY="238.0" prefHeight="524.0" prefWidth="992.0" style="-fx-background-color: #FFFFFF; -fx-border-color: green; -fx-border-width: 3; -fx-border-radius: 20;" />
       <Label layoutX="155.0" layoutY="311.0" prefHeight="80.0" prefWidth="259.0" style="-fx-border-color: #000000; -fx-border-radius: 20;" />
       <Label layoutX="166.0" layoutY="352.0" prefHeight="30.0" prefWidth="16.0" style="-fx-border-color: #000000;" />
       <Label layoutX="187.0" layoutY="352.0" prefHeight="30.0" prefWidth="16.0" style="-fx-border-color: #000000;" />
