@@ -16,7 +16,7 @@
   <children>
       <ImageView fitHeight="675.0" fitWidth="1195.0" layoutX="7.0" layoutY="60.0" opacity="0.8" pickOnBounds="true" style="-fx-background-radius: pink;">
          <image>
-            <Image url="@../../../../../OneDrive/바탕%20화면/Login_image.jpg" />
+            <Image url="img/Login_image.jpg" />
          </image>
          <effect>
             <Glow level="0.24">
@@ -51,7 +51,7 @@
       </Label>
       <ImageView fitHeight="42.0" fitWidth="39.0" layoutX="446.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../OneDrive/바탕%20화면/guest-male.png" />
+            <Image url="img/guest-male.png" />
          </image>
          <effect>
             <ColorAdjust brightness="1.0" />
@@ -59,7 +59,7 @@
       </ImageView>
       <ImageView fitHeight="30.0" fitWidth="40.0" layoutX="452.0" layoutY="393.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../OneDrive/바탕%20화면/password.png" />
+            <Image url="img/password.png" />
          </image>
          <effect>
             <ColorAdjust brightness="1.0" />
@@ -67,7 +67,7 @@
       </ImageView>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="526.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../OneDrive/바탕%20화면/login_logo_main.gif" />
+            <Image url="img/login_logo_main.gif" />
          </image>
          <effect>
             <Lighting diffuseConstant="2.0">

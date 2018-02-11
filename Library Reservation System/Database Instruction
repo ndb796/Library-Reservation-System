@@ -8,7 +8,7 @@ CREATE TABLE USER (
   userGender VARCHAR(10), # 회원 성별
   userAge INT, # 회원 나이
   userEmail VARCHAR(50) # 회원 이메일
- );
+);
 
- /* 회원 덤프 데이터 삽입 */
- INSERT INTO USER VALUES ('john', 'john123', '남자', 20, 'john@gmail.com');
+/* 회원 덤프 데이터 삽입 */
+INSERT INTO USER VALUES ('john', 'john123', '남자', 20, 'john@gmail.com');
