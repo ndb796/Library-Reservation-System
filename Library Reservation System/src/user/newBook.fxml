@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.shape.*?>
 <?import java.lang.*?>
 <?import javafx.scene.control.*?>
@@ -17,5 +18,23 @@
          </font>
       </Label>
       <Circle fill="#fa4771" layoutX="793.0" layoutY="29.0" radius="13.0" stroke="#fa4771" strokeType="INSIDE" />
+      <Label layoutX="59.0" layoutY="77.0" prefHeight="29.0" prefWidth="137.0" text="메인 메뉴로 이동" textFill="#0a0000">
+         <font>
+            <Font name="BM JUA" size="22.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="14.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="img/back_image.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="308.0" layoutY="112.0" prefHeight="39.0" prefWidth="207.0" text="이 달의 새 책">
+         <font>
+            <Font name="HYPost-Medium" size="34.0" />
+         </font>
+      </Label>
+      <ChoiceBox layoutX="655.0" layoutY="183.0" prefHeight="23.0" prefWidth="105.0" />
+      <Label layoutX="605.0" layoutY="175.0" prefHeight="39.0" prefWidth="50.0" text="장르별 : " />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="69.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true" />
   </children>
 </AnchorPane>
