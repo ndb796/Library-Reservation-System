@@ -81,7 +81,7 @@ public class UserLoginController implements Initializable {
 	
 	public void joinButtonAction(ActionEvent event) {
 		try {
-			Parent parent = FXMLLoader.load(getClass().getResource("userJoin2.fxml"));
+			Parent parent = FXMLLoader.load(getClass().getResource("UserJoin.fxml"));
 			Scene scene = new Scene(parent);
 			Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 			stage.setScene(scene);
