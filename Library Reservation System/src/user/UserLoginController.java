@@ -3,6 +3,7 @@ package user;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import application.Main;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -46,6 +47,7 @@ public class UserLoginController implements Initializable {
 		int result = userDAO.login(userID, userPassword);
 		if(result == 1) {
 			try {
+				Main.userID = userID;
 				Parent parent = FXMLLoader.load(getClass().getResource("../main/Main.fxml"));
 				Scene scene = new Scene(parent);
 				Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();

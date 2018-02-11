@@ -67,11 +67,10 @@ DROP TABLE IF EXISTS `borrow`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `borrow` (
-  `booknum` int(11) NOT NULL,
+  `booknum` int(11),
   `bookname` varchar(45) DEFAULT NULL,
   `borrowdate` varchar(45) DEFAULT NULL,
-  `returndate` timestamp NULL DEFAULT NULL,
-  PRIMARY KEY (`booknum`)
+  `returndate` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=euckr;
 /*!40101 SET character_set_client = @saved_cs_client */;
 

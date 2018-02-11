@@ -1,28 +1,64 @@
-package application;
-	
+package library;
+
+import java.awt.Color;
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.Vector;
 
 import javafx.application.Application;
+import javafx.collections.FXCollections;
+import javafx.event.*;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.effect.GaussianBlur;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Font;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-import library.DbConnection;
+import javafx.stage.WindowEvent;
 
-public class Main extends Application {
-	
-	public static String userID = "";
+public class Main extends Application
+{
 	
 	AnchorPane pane1 = new AnchorPane();
 	public DbConnection dc;
 	
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+		
+		launch(args);
+	}
 	
+	@Override
+	public void start(Stage primaryStage)
+	{
+		// TODO Auto-generated method stub
+		try
+		{
+			Parent root = FXMLLoader.load(getClass().getResource("/Main.fxml"));
+			
+			Scene sn = new Scene(root);
+			
+			primaryStage.setTitle("도서관 자리");
+			primaryStage.setScene(sn);
+			primaryStage.show();
+			
+		} catch (Exception e)
+		{
+			e.printStackTrace();
+		}
+		
+	}
 	
 	Stage newStage;
 	static Vector<String> rsnum = new Vector<String>();
@@ -145,22 +181,5 @@ public class Main extends Application {
 			});
 			table.add(chair);
 		}
-	}
-	
-	@Override
-	public void start(Stage primaryStage) {
-		try {
-			Parent root = FXMLLoader.load(getClass().getResource("../user/UserLogin.fxml"));
-			Scene scene = new Scene(root);
-			primaryStage.setScene(scene);
-			primaryStage.initStyle(StageStyle.UNDECORATED);
-			primaryStage.show();
-		} catch(Exception e) {
-			e.printStackTrace();
-		}
-	}
-	
-	public static void main(String[] args) {
-		launch(args);
 	}
 }
