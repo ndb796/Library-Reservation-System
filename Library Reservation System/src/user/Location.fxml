@@ -299,7 +299,7 @@
       </ImageView>
       <Label layoutX="67.0" layoutY="68.0" prefHeight="29.0" prefWidth="159.0" text="메인 메뉴로 이동" textFill="#0a0000">
          <font>
-            <Font name="BM JUA" size="25.0" />
+            <Font name="배달의민족 주아" size="25.0" />
          </font>
       </Label>
       <ImageView fitHeight="53.0" fitWidth="54.0" layoutX="584.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">

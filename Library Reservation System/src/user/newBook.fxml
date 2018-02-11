@@ -20,7 +20,7 @@
       <Circle fill="#fa4771" layoutX="1033.0" layoutY="29.0" radius="13.0" stroke="#fa4771" strokeType="INSIDE" />
       <Label layoutX="59.0" layoutY="77.0" prefHeight="29.0" prefWidth="137.0" text="메인 메뉴로 이동" textFill="#0a0000">
          <font>
-            <Font name="BM JUA" size="22.0" />
+            <Font name="배달의민족 주아" size="22.0" />
          </font>
       </Label>
       <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="14.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
@@ -37,26 +37,26 @@
       <Label layoutX="875.0" layoutY="135.0" prefHeight="39.0" prefWidth="50.0" text="장르별 : " />
       <ImageView fitHeight="232.0" fitWidth="200.0" layoutX="28.0" layoutY="184.0" pickOnBounds="true">
          <image>
-            <Image url="@../../../../../OneDrive/바탕%20화면/newbook1.jpg" />
+            <Image url="img/newbook1.jpg" />
          </image></ImageView>
       <ImageView fitHeight="232.0" fitWidth="200.0" layoutX="530.0" layoutY="184.0" pickOnBounds="true">
          <image>
-            <Image url="@../../../../../OneDrive/바탕%20화면/newbook2.jpg" />
+            <Image url="img/newbook2.jpg" />
          </image>
       </ImageView>
       <ImageView fitHeight="232.0" fitWidth="200.0" layoutX="30.0" layoutY="478.0" pickOnBounds="true">
          <image>
-            <Image url="@../../../../../OneDrive/바탕%20화면/newbook3.JPG" />
+            <Image url="img/newbook3.JPG" />
          </image>
       </ImageView>
       <ImageView fitHeight="232.0" fitWidth="200.0" layoutX="530.0" layoutY="478.0" pickOnBounds="true">
          <image>
-            <Image url="@../../../../../OneDrive/바탕%20화면/newbook4.jpg" />
+            <Image url="img/newbook4.jpg" />
          </image>
       </ImageView>
       <Label layoutX="239.0" layoutY="180.0" text="무조건 달라진다">
          <font>
-            <Font name="BM JUA" size="40.0" />
+            <Font name="배달의민족 주아" size="40.0" />
          </font>
       </Label>
       <Label layoutX="239.0" layoutY="268.0" />
@@ -64,7 +64,7 @@
       <Label layoutX="239.0" layoutY="361.0" text="당신이 작심삼일만 반복하는 것은&#10;'의지' 부족이아니라 '방법'을 몰랐기 때문이다!&#10;새해 결심을 지키지 못한 모든 사람을 위한 필독서!" />
       <Label layoutX="740.0" layoutY="180.0" text="빅데이터 부동산투자">
          <font>
-            <Font name="BM JUA" size="40.0" />
+            <Font name="배달의민족 주아" size="40.0" />
          </font>
       </Label>
       <Label layoutX="239.0" layoutY="314.0" text="&quot;의지 따위 없어도 저절로 행동이 바뀌는 &#10;습관의 과학&quot;" />
@@ -76,12 +76,12 @@
       <Label layoutX="241.0" layoutY="522.0" text="저자 : 최우성&#10;출판사 : 인물과사상사&#10;출간일 : 2018년 2월 5일&#10;장르 : 경제 경영&#10;" />
       <Label layoutX="239.0" layoutY="473.0" text="동화경제사">
          <font>
-            <Font name="BM JUA" size="40.0" />
+            <Font name="배달의민족 주아" size="40.0" />
          </font>
       </Label>
       <Label layoutX="740.0" layoutY="473.0" text="성격급한 부자들">
          <font>
-            <Font name="BM JUA" size="40.0" />
+            <Font name="배달의민족 주아" size="40.0" />
          </font>
       </Label>
       <Label layoutX="740.0" layoutY="522.0" text="저자 : 다구치 도모타카&#10;역자 : 김윤수&#10;출판사 : 포레스트 북스&#10;출간일 : 2018년 2월 5일&#10;장르 : 경제 경영&#10;" />

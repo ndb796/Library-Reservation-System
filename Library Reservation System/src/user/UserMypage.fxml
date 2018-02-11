@@ -44,7 +44,7 @@
       <Label disable="true" layoutX="7.0" layoutY="6.0" prefHeight="53.0" prefWidth="352.0" style="-fx-background-color: pink;" />
       <Label layoutX="21.0" layoutY="15.0" prefHeight="30.0" prefWidth="148.0" text="도서관 이용 도우미">
          <font>
-            <Font name="BM JUA" size="20.0" />
+            <Font name="배달의민족 주아" size="20.0" />
          </font>
       </Label>
       <Button layoutX="27.0" layoutY="469.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="304.0" style="-fx-background-color: #FF9999; -fx-background-radius: 100;" text="수정">
